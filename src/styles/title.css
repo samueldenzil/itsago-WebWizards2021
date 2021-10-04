@@ -1,0 +1,67 @@
+.title {
+  margin-top: 40px;
+}
+
+.rectangle-3 {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/maldives-img.png);
+  padding: 54px;
+}
+
+.maldives-img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.main-title {
+  position: relative;
+  top: 9.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 46px;
+  color: #fe6770;
+}
+
+.sub-title {
+  top: 9.4rem;
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  width: 25%;
+}
+
+.search-bar {
+  position: relative;
+  width: 1000px;
+  height: 114px;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
+  border-radius: 15px;
+  top: 290px;
+  left: 7%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-link {
+    display: flex;  
+    align-items: center;
+}
+
+.card-link div {
+    color: #000;
+    margin-left: 8px;
+}
