@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  padding: 0 120px;
+  background-color: #fffff3;
+  font-family: "Roboto", sans-serif;
+}
+
+/* body {
+    padding: 0 120px;
+} */
+
+header {
+  padding: 28px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+
+nav a img {
+  margin-right: 16px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline;
+  list-style: none;
+  margin: 0 25px;
+}
+
+.nav-item a {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+}
+
+a.login-btn {
+  width: 80px;
+  height: 40px;
+  background: #ff4365;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fffcfe;
+}
+
+.hero-img {
+  width: 1196px;
+  height: 450px;
+  background-image: url("/images/maldives-img.png");
+  /* background-color: red; */
+  position: relative;
+  margin: auto;
+  border-radius: 15px;
+  color: #ffffff;
+  font-family: Montserrat;
+  position: relative;
+}
+
+.hero-text-sub {
+  width: 68%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.hero-text {
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 800;
+  color: #ff4365;
+}
+
+.title-text {
+  position: absolute;
+  top: 152px;
+  left: 54px;
+}
+
+.menu-option {
+  width: 1000px;
+  height: 114px;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
+  border-radius: 15px;
+  position: absolute;
+  bottom: -32px;
+  left: 98px;
+  margin: auto;
+}
