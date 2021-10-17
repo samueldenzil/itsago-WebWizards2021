@@ -105,6 +105,7 @@ a.login-btn {
 .menu-option {
   width: 1000px;
   height: 114px;
+  box-sizing: border-box;
   background-color: #ffffff;
   box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
   border-radius: 15px;
@@ -112,4 +113,96 @@ a.login-btn {
   bottom: -32px;
   left: 98px;
   margin: auto;
+  padding: 48px 74px;
+}
+
+.menu-option ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-option ul li a {
+  color: #030301;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#hotel-section {
+  padding: 120px 122px 0;
+  background-color: #fffff3;
+  font-family: Roboto;
+}
+
+#hotel-section h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0.03em;
+  color: #030301;
+  padding-bottom: 60px;
+}
+
+#hotel-section h1 span {
+  color: #00D9C0;
+}
+
+.hotels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotel {
+  width: 336px;
+  height: 192px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
+  margin-bottom: 32px;
+}
+
+.hotel .place-div {
+  position: absolute;
+  top: 125px;
+  left: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #254554;
+}
+
+.hotel .location-div {
+  position: absolute;
+  top: 162px;
+  left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a7acb0;
+}
+
+.fa-map-marker-alt {
+  color: #ff4365;
+  margin-right: 8px;
+}
+
+.hotel .discound-div {
+  position: absolute;
+  top: 134px;
+  right: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 14px;
+  color: #ff4365;
+}
+
+.hotel .bookmark-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
 }
