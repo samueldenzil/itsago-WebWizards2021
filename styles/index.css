@@ -71,8 +71,7 @@ a.login-btn {
 .hero-img {
   width: 1196px;
   height: 450px;
-  background-image: url("/images/maldives-img.png");
-  /* background-color: red; */
+  background-image: url("../images/maldives-img.png");
   position: relative;
   margin: auto;
   border-radius: 15px;
