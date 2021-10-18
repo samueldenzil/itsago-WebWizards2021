@@ -144,7 +144,7 @@ a.login-btn {
 }
 
 #hotel-section h1 span {
-  color: #00D9C0;
+  color: #00d9c0;
 }
 
 .hotels {
@@ -160,6 +160,7 @@ a.login-btn {
   background: #ffffff;
   box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
   margin-bottom: 32px;
+  cursor: pointer;
 }
 
 .hotel .place-div {
@@ -204,4 +205,55 @@ a.login-btn {
   top: 16px;
   right: 16px;
   cursor: pointer;
+}
+
+#footer {
+  background-color: #ff4365;
+  padding: 40px 122px;
+  color: #fffcfe;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+
+.about-us-div .heading {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  margin-bottom: 32px;
+}
+
+.about-us-div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.social-media-pages {
+  margin-top: 20px;
+}
+
+.social-media-pages i {
+  margin-right: 16px;
+}
+
+.usefull-links-div ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+.usefull-links-div ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.additional-link-div ul {
+  display: flex;
+  flex-direction: column;
+  
 }
