@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffff3;
+  padding: 0 123px;
+}
+
+header {
+  padding: 28px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+
+nav a img {
+  margin-right: 16px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline;
+  list-style: none;
+  margin: 0 25px;
+}
+
+.nav-item a {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+}
+
+a.login-btn {
+  width: 80px;
+  height: 40px;
+  background: #ff4365;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fffcfe;
+}
+
+.hotels {
+  margin-top: 30px;
+}
+
+.hotel {
+  width: 950px;
+  height: 180px;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgb(109 141 173 / 15%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hotel img {
+  height: 100%;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.hotel-details {
+  flex: 1;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.hotel-name h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+  color: #254554;
+}
+
+.hotel-name p {
+  font-family: Roboto;
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #a7acb0;
+}
+
+button {
+  background-color: #ff4365;
+  width: 8rem;
+  height: 2.5rem;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hotel-rating {
+  margin: 32px;
+}
+
+.rating {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ff4365;
+}
